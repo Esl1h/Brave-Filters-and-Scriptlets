@@ -15,4 +15,4 @@ www.wikiwand.com##.intro_content__hRkj_
 www.wikiwand.com##.intro_wrapper__bEjtR
 
 ! Scriptlets:
-instagram.com##+js(redirect-instagram.js)
+instagram.com##+js(user-redirect-instagram.js)

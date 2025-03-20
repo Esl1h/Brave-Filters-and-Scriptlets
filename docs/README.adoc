@@ -1,6 +1,10 @@
-# Brave-Filters-and-Scriptlets
-
-
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
 
 = Brave Filters and Scriptlets
 :toc: macro
@@ -8,4 +12,8 @@
 
 == 📖 About
 
-My personal Brave Browser Adblock Custom Filters and Scriptlets.
+[NOTE]
+====
+My personal Brave Browser Adblock Custom Filters and Scriptlets to sync between installed instances.
+
+====
