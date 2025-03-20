@@ -1,0 +1,11 @@
+# Brave-Filters-and-Scriptlets
+
+
+
+= Brave Filters and Scriptlets
+:toc: macro
+:toclevels: 2
+
+== 📖 About
+
+My personal Brave Browser Adblock Custom Filters and Scriptlets.
