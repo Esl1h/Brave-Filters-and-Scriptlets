@@ -13,6 +13,9 @@ www.wikiwand.com##.intro_footer__Fpzqw
 www.wikiwand.com##.intro_header__mivQX
 www.wikiwand.com##.intro_content__hRkj_
 www.wikiwand.com##.intro_wrapper__bEjtR
+www.wikiwand.com##.ai-tools-popup:has(.ai-tools-popup-header) {display: none !important;}
+www.wikiwand.com##.ai-tools-popup[style*="display: block;"]
+www.wikiwand.com##.ai-tools-popup-header[aria-expanded="true"]
 
 ! Scriptlets:
 instagram.com##+js(user-redirect-instagram.js)
