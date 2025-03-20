@@ -2,6 +2,7 @@
 :tip-caption: :bulb:
 :note-caption: :information_source:
 :toc: macro
+:toc-title: 📑 **Table of Contents**
 :toclevels: 5
 
 == 📖 About
@@ -18,7 +19,7 @@ Some filters to remove annoying elements/popups/ads/chats from websites.
 ====
 
 
-== 🚀 How to use
+== 🚀 How to use TL;DR
 [[_How_to_use]]
 1. Copy the filter file URL: https://raw.githubusercontent.com/Esl1h/Brave-Filters-and-Scriptlets/refs/heads/main/filters
 
@@ -27,6 +28,49 @@ Some filters to remove annoying elements/popups/ads/chats from websites.
 OR copy all content in filters file, and paste on "Create custom filters" box.
 
 3. Create a Custom scriptlets with the same name and content on .js file in this repository.
+
+
+
+
+== 📦 Installation
+[[_installation]]
+Follow these steps to integrate the custom filters and scriptlets into your Brave Browser:
+
+=== 💻 Adding Custom Filters
+[[_adding_custom_filters]]
+1. **Copy the Filter File URL:**
+   - `https://raw.githubusercontent.com/Esl1h/Brave-Filters-and-Scriptlets/main/filters`
+
+2. **Add to Brave's Custom Filter List:**
+   - Navigate to `brave://settings/shields/filters`.
+   - Under "Custom Filters," click "Add Custom Filter List."
+   - Paste the copied URL and click "Add."
+
+Alternatively, you can:
+
+1. **Copy Filter Content:**
+   - Open the [filters file](https://github.com/Esl1h/Brave-Filters-and-Scriptlets/blob/main/filters) and copy its content.
+
+2. **Paste into Custom Filters:**
+   - Go to `brave://settings/shields/filters`.
+   - Scroll to "Create custom filters" and paste the copied content.
+
+=== 🔨 Adding Custom Scriptlets
+[[_adding_custom_scriptlets]]
+1. **Access Brave's Custom Filters:**
+   - Navigate to `brave://settings/shields/filters`.
+
+2. **Enable Developer Mode:**
+   - Toggle on "Developer Mode" to unlock advanced settings.
+
+3. **Add Scriptlet Content:**
+   - Scroll to "Custom Filters" and paste your scriptlet code.
+
+4. **Save Changes:**
+   - Click "Save" to apply the scriptlets.
+
+TIP: Ensure that your scriptlets are compatible with Brave's ad-blocking engine to avoid potential issues.
+
 
 
 === 📜 Links
