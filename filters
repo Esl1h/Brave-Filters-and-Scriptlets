@@ -1,0 +1,18 @@
+app.1min.ai##.css-nqmzah.ant-float-btn.sc-fWSCoS.jUFNLE.ant-float-btn-default.ant-float-btn-square > .ant-float-btn-body
+
+theoldreader.com###tor-ad-wrapper
+theoldreader.com##.banner-inner
+theoldreader.com###in-feed-ad
+theoldreader.com##div#in-feed-ad-container:nth-of-type(3)
+theoldreader.com##div#in-feed-ad-container:nth-of-type(15)
+theoldreader.com###tor-in-feed-ad-container
+theoldreader.com###banner_container
+
+www.wikiwand.com##.settings_settings__RFQpL
+www.wikiwand.com##.intro_footer__Fpzqw
+www.wikiwand.com##.intro_header__mivQX
+www.wikiwand.com##.intro_content__hRkj_
+www.wikiwand.com##.intro_wrapper__bEjtR
+
+! Scriptlets:
+instagram.com##+js(redirect-instagram.js)
