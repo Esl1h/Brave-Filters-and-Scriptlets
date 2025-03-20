@@ -16,3 +16,4 @@ www.wikiwand.com##.intro_wrapper__bEjtR
 
 ! Scriptlets:
 instagram.com##+js(user-redirect-instagram.js)
+wikipedia.org##+js(user-redirect-wikipedia.js)
