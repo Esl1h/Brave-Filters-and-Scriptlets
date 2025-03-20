@@ -1,47 +1,44 @@
-ifdef::env-github[]
+= Brave Filters and Scriptlets
 :tip-caption: :bulb:
 :note-caption: :information_source:
-:important-caption: :heavy_exclamation_mark:
-:caution-caption: :fire:
-:warning-caption: :warning:
-endif::[]
-
-= Brave Filters and Scriptlets
 :toc: macro
-:toclevels: 2
+:toclevels: 5
 
 == 📖 About
-
+[[_About]]
 My personal Brave Browser Adblock Custom Filters and Scriptlets to sync between installed instances.
 Some filters to remove annoying elements/popups/ads/chats from websites.
 
 [NOTE]
 ====
-Filter: just like regex, but for blocking elements on websites. Found on Ublock Origin, AdGuard or AdBlock Plus documentation, and are many community personalized filters list on the internet to add on this extensions (and native embedded on Brave).
+*Filter:* just like regex for blocking elements on websites. Found on Ublock Origin, AdGuard or AdBlock Plus documentation, and are many community personalized filters list on the internet to add on this extensions (and native embedded on Brave).
 
-Scriptlets: custom javascript to run on websites. It's like a Tampermonkey/Greasemonkey script, but embedded on Brave browser. It's a powerful tool to customize websites, remove elements, change styles, and more.
+*Scriptlets:* custom javascript to run on websites. It's like a Tampermonkey/Greasemonkey script, but embedded on Brave browser. It's a powerful tool to customize websites, remove elements, change styles, and more.
 
 ====
 
 
-== How to use
-
+== 🚀 How to use
+[[_How_to_use]]
 1. Copy the filter file URL: https://raw.githubusercontent.com/Esl1h/Brave-Filters-and-Scriptlets/refs/heads/main/filters
 
-2. Paste on Custom Filter List brave://settings/shields/filters[brave://settings/shields/filters]
+2. Paste on Custom Filter List +brave://settings/shields/filters+
 
 OR copy all content in filters file, and paste on "Create custom filters" box.
 
 3. Create a Custom scriptlets with the same name and content on .js file in this repository.
 
 
-=== Links
+=== 📜 Links
+[[_Links]]
 
 ==== About Scriptlets
+[[_About_Scriptlets]]
 
 https://brave.com/privacy-updates/32-custom-scriptlets/[Using custom scriptlets]
 
 ==== About filters
+[[_About_filters]]
 
 https://support.brave.com/hc/en-us/articles/6449369961741-How-do-I-manage-Ad-Block-filters-in-Brave[How do I manage Ad-Block filters in Brave]
 
