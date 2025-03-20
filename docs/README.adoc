@@ -21,15 +21,16 @@ Some filters to remove annoying elements/popups/ads/chats from websites.
 
 == 🚀 How to use TL;DR
 [[_How_to_use]]
-1. Copy the filter file URL: https://raw.githubusercontent.com/Esl1h/Brave-Filters-and-Scriptlets/refs/heads/main/filters
 
-2. Paste on Custom Filter List +brave://settings/shields/filters+
+Copy the filter file URL: https://raw.githubusercontent.com/Esl1h/Brave-Filters-and-Scriptlets/refs/heads/main/filters and paste on Custom Filter List +brave://settings/shields/filters+
 
 OR copy all content in filters file, and paste on "Create custom filters" box.
 
-3. Create a Custom scriptlets with the same name and content on .js file in this repository.
+And create a Custom scriptlets with the same name and content on .js file in this repository.
 
-
+++++
+<br><br>
+++++
 
 
 == 📦 Installation
@@ -49,7 +50,7 @@ Follow these steps to integrate the custom filters and scriptlets into your Brav
 Alternatively, you can:
 
 1. **Copy Filter Content:**
-   - Open the [filters file](https://github.com/Esl1h/Brave-Filters-and-Scriptlets/blob/main/filters) and copy its content.
+   - Open the https://github.com/Esl1h/Brave-Filters-and-Scriptlets/blob/main/filters[filters file] and copy its content.
 
 2. **Paste into Custom Filters:**
    - Go to `brave://settings/shields/filters`.
