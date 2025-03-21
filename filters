@@ -17,3 +17,4 @@ www.wikiwand.com##.intro_wrapper__bEjtR
 instagram.com##+js(user-redirect-instagram.js)
 wikipedia.org##+js(user-redirect-wikipedia.js)
 imdb.com##+js(user-redirect-imdb.js)
+quora.com##+js(user-redirect-quora.js)
