@@ -21,6 +21,31 @@ www.wikiwand.com##.intro_header__mivQX
 www.wikiwand.com##.intro_content__hRkj_
 www.wikiwand.com##.intro_wrapper__bEjtR
 
+
+motor1.uol.com.br,insideevs.uol.com.br##.m1-newsfeed_sidebar-wrapper, .m1-newsfeed_sidebar
+motor1.uol.com.br,insideevs.uol.com.br##.m1-top-comments__body
+motor1.uol.com.br,insideevs.uol.com.br##.m1-basic-wrapper.m1-ads-placeholder > .m1-ads-placeholder-grid
+motor1.uol.com.br##.m1-basic-wrapper.m1-basic-wrapper-grad:nth-of-type(3) > .m1-newsfeed.m1-basic-wrapper-grid
+motor1.uol.com.br###\36 122441_M1_br_DMPU_dmpu_first_1742896926, #\36 122441_M1_br_DMPU_dmpu_1_1742896926
+motor1.uol.com.br##.item.sidebar.flex.flex-col.gap-spacing-md-lg
+motor1.uol.com.br###post_sidebar
+
+quatrorodas.abril.com.br##.f-brands > .container
+quatrorodas.abril.com.br##.block.cinquenta-anos.light
+quatrorodas.abril.com.br###abril_widget_assinatura-3
+
+www.noticiasautomotivas.com.br##.ml-form-align-center, #dsq-app6243
+www.noticiasautomotivas.com.br##.crunchify-social, .rmp-rating-widget.js-rmp-rating-widget
+www.noticiasautomotivas.com.br##[href*="https://news.google.com/publications/CAAiEHMyvWNtUgpkaWzXJ7igMcYqFAgKIhBzMr1jbVIKZGls1ye4oDHG"] > .ezlazyloaded
+www.noticiasautomotivas.com.br##.cat-links, b:nth-of-type(1), b:nth-of-type(2)
+www.noticiasautomotivas.com.br###dsq-app9291
+
+www.car.blog.br,www.motorvicio.com##.about-author, .entry-tags, .blog-post-comments.comments-system-blogger
+www.car.blog.br,www.motorvicio.com###PopularPosts1, #PopularPosts3, #BlogList1 > .widget-content, #BlogList2
+www.car.blog.br,www.motorvicio.com###Label1, #Label2, #Label3, #BlogArchive1, #index-sidebar, #HTML12, #FeaturedPost1
+www.car.blog.br,www.motorvicio.com##.blog-post-comments.comments-system-blogger
+www.car.blog.br,www.motorvicio.com##.index-sidebar, #item-sidebar
+
 ! Scriptlets:
 instagram.com##+js(user-redirect-instagram.js)
 wikipedia.org##+js(user-redirect-wikipedia.js)
