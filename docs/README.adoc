@@ -32,6 +32,19 @@ And create a Custom scriptlets with the same name and content on .js file in thi
 <br><br>
 ++++
 
+== Scriptlets
+[[scriptlets]]
+
+Redirects:
+
+- Instagram to imginn
+- wikipedia to wikiwand
+- imdb to https://github.com/zyachel/libremdb[libremdb]
+- quora to https://github.com/zyachel/quetre[quetre]
+
+++++
+<br><br>
+++++
 
 == 📦 Installation
 [[_installation]]
