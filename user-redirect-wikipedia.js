@@ -1,18 +1,24 @@
 'use strict';
 
-(function () {
-  const { hostname, pathname } = window.location;
+(function() {
+    const currentUrl = window.location.href;
 
-  // check Wikipedia
-  if (!hostname.endsWith('wikipedia.org')) return;
+    // Verifica se a URL corresponde a um artigo da Wikipedia
+    const wikipediaRegex = /^https?:\/\/([a-z]{2,3})\.wikipedia\.org\/wiki\/([^#?]+)/;
+    const match = currentUrl.match(wikipediaRegex);
+    if (!match) return;
 
-  // split domain and language path
-  const lang = hostname.split('.')[0];
-  const article = pathname.split('/').pop();
+    const lang = match[1];
+    const article = match[2];
 
-  // Redirect to wikiwand
-  if (pathname.startsWith('/wiki/') && article) {
-    const newUrl = `https://www.wikiwand.com/${lang}/articles/${encodeURIComponent(article)}`;
-    window.location.replace(newUrl);
-  }
+    // Verifica tipo de conteúdo com HEAD
+    fetch(currentUrl, { method: 'HEAD' })
+        .then(response => {
+            const contentType = response.headers.get('Content-Type');
+            if (contentType && contentType.includes('text/html')) {
+                const newUrl = `https://www.wikiwand.com/${lang}/articles/${encodeURIComponent(article)}`;
+                window.location.replace(newUrl);
+            }
+        })
+        .catch(console.error);
 })();
