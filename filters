@@ -16,18 +16,27 @@ theoldreader.com###banner_container
 ||theoldreader.com##.tor-ad-wrapper
 
 
-www.wikiwand.com##.intro_footer__Fpzqw
-www.wikiwand.com##.intro_header__mivQX
-www.wikiwand.com##.intro_content__hRkj_
-www.wikiwand.com##.intro_wrapper__bEjtR
-www.wikiwand.com##.extensions_wrapper__bELIb
-www.wikiwand.com##.wrapper_wrapper__jj00U.wrapper_side__f1en2
-www.wikiwand.com##.wrapper_wrapper__jj00U.wrapper_atf__E8xY8
-www.wikiwand.com##.wrapper_wrapper__jj00U.wrapper_ob__27KzO
-www.wikiwand.com##.section_wrapper__8dcj4.top-section > .wrapper_wrapper__jj00U.wrapper_incontent__6ov0c
-www.wikiwand.com##.wrapper_wrapper__jj00U:is(.wrapper_side__f1en2, .wrapper_atf__E8xY8, .wrapper_incontent__6ov0c)
-www.wikiwand.com##.minimized_wrapper__yXeap.minimized-ai
-www.wikiwand.com##.navbar_actions__ZvLR_
+! Wikiwand - Intro elements
+www.wikiwand.com##[class^="intro_footer__"]
+www.wikiwand.com##[class^="intro_header__"]
+www.wikiwand.com##[class^="intro_content__"]
+www.wikiwand.com##[class^="intro_wrapper__"]
+
+! Wikiwand - Extension elements
+www.wikiwand.com##[class^="extensions_wrapper__"]
+
+! Wikiwand - General wrapper combinations (from previous optimization)
+www.wikiwand.com##[class*="wrapper_wrapper__"]:is([class*="wrapper_side__"], [class*="wrapper_atf__"], [class*="wrapper_incontent__"], [class*="wrapper_ob__"])
+
+! Wikiwand - Specific section wrapper content (if the above :is() is too broad or doesn't catch it)
+! www.wikiwand.com##[class*="section_wrapper__"].top-section > [class*="wrapper_wrapper__"][class*="wrapper_incontent__"]
+! Note: A regra :is() acima provavelmente já cobre os casos de wrapper_incontent. Teste se esta é necessária.
+
+! Wikiwand - Minimized AI and Navbar
+www.wikiwand.com##[class*="minimized_wrapper__"].minimized-ai
+www.wikiwand.com##[class^="navbar_actions__"]
+
+
 
 
 motor1.uol.com.br,insideevs.uol.com.br##.m1-newsfeed_sidebar-wrapper, .m1-newsfeed_sidebar
