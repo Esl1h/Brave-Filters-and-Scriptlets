@@ -1,19 +1,19 @@
-app.1min.ai##.css-nqmzah.ant-float-btn.sc-fWSCoS.jUFNLE.ant-float-btn-default.ant-float-btn-square > .ant-float-btn-body
+! app.1min.ai
+app.1min.ai##.ant-float-btn.ant-float-btn-default.ant-float-btn-square > .ant-float-btn-body
 
-||ultimate-guitar.com##.APx01
-||ultimate-guitar.com##.ppaLA.HyqOe.SiteWidePermanentBlock
-||ultimate-guitar.com##.j6ndN
-||ultimate-guitar.com##.Es6Zq.ipj9n
+! ultimate-guitar.com
+ultimate-guitar.com##.SiteWidePermanentBlock
+ultimate-guitar.com##[class^="APx"]
+ultimate-guitar.com##[class^="j6n"]
+ultimate-guitar.com##[class^="Es6Zq"][class^="ipj9n"]
 
+! theoldreader.com
 theoldreader.com###tor-ad-wrapper
 theoldreader.com##.banner-inner
 theoldreader.com###in-feed-ad
-theoldreader.com##div#in-feed-ad-container:nth-of-type(3)
-theoldreader.com##div#in-feed-ad-container:nth-of-type(15)
 theoldreader.com###tor-in-feed-ad-container
 theoldreader.com###banner_container
-||theoldreader.com##div[id^="in-feed-ad-container"]
-||theoldreader.com##.tor-ad-wrapper
+theoldreader.com##[id^="in-feed-ad-container"]
 
 
 ! Wikiwand - Intro elements
