@@ -37,31 +37,34 @@ www.wikiwand.com##[class*="minimized_wrapper__"].minimized-ai
 www.wikiwand.com##[class^="navbar_actions__"]
 
 
-
-
+! UOL Motor1 / InsideEVs
 motor1.uol.com.br,insideevs.uol.com.br##.m1-newsfeed_sidebar-wrapper, .m1-newsfeed_sidebar
 motor1.uol.com.br,insideevs.uol.com.br##.m1-top-comments__body
 motor1.uol.com.br,insideevs.uol.com.br##.m1-basic-wrapper.m1-ads-placeholder > .m1-ads-placeholder-grid
 motor1.uol.com.br##.m1-basic-wrapper.m1-basic-wrapper-grad:nth-of-type(3) > .m1-newsfeed.m1-basic-wrapper-grid
-motor1.uol.com.br###\36 122441_M1_br_DMPU_dmpu_first_1742896926, #\36 122441_M1_br_DMPU_dmpu_1_1742896926
+motor1.uol.com.br##[id*="_M1_br_DMPU_dmpu_first_"], [id*="_M1_br_DMPU_dmpu_1_"]
 motor1.uol.com.br##.item.sidebar.flex.flex-col.gap-spacing-md-lg
 motor1.uol.com.br###post_sidebar
 
+! Quatro Rodas Abril
 quatrorodas.abril.com.br##.f-brands > .container
 quatrorodas.abril.com.br##.block.cinquenta-anos.light
-quatrorodas.abril.com.br###abril_widget_assinatura-3
+quatrorodas.abril.com.br##[id^="abril_widget_assinatura-"]
 
-www.noticiasautomotivas.com.br##.ml-form-align-center, #dsq-app6243
-www.noticiasautomotivas.com.br##.crunchify-social, .rmp-rating-widget.js-rmp-rating-widget
+! Noticias Automotivas
+www.noticiasautomotivas.com.br##.ml-form-align-center, [id^="dsq-app"]
+www.noticiasautomotivas.com.br##.crunchify-social, .rmp-rating-widget
 www.noticiasautomotivas.com.br##[href*="https://news.google.com/publications/CAAiEHMyvWNtUgpkaWzXJ7igMcYqFAgKIhBzMr1jbVIKZGls1ye4oDHG"] > .ezlazyloaded
-www.noticiasautomotivas.com.br##.cat-links, b:nth-of-type(1), b:nth-of-type(2)
-www.noticiasautomotivas.com.br###dsq-app9291
+www.noticiasautomotivas.com.br##.cat-links
+! As regras abaixo são muito genéricas e podem causar falsos positivos. Use com cautela ou torne-as mais específicas.
+! www.noticiasautomotivas.com.br##b:nth-of-type(1)
+! www.noticiasautomotivas.com.br##b:nth-of-type(2)
 
+! Car.blog.br / Motorvicio.com (Blogger)
 www.car.blog.br,www.motorvicio.com##.about-author, .entry-tags, .blog-post-comments.comments-system-blogger
-www.car.blog.br,www.motorvicio.com###PopularPosts1, #PopularPosts3, #BlogList1 > .widget-content, #BlogList2
-www.car.blog.br,www.motorvicio.com###Label1, #Label2, #Label3, #BlogArchive1, #index-sidebar, #HTML12, #FeaturedPost1
-www.car.blog.br,www.motorvicio.com##.blog-post-comments.comments-system-blogger
-www.car.blog.br,www.motorvicio.com##.index-sidebar, #item-sidebar
+www.car.blog.br,www.motorvicio.com##[id^="PopularPosts"], [id^="BlogList"]
+www.car.blog.br,www.motorvicio.com##[id^="Label"], [id^="BlogArchive"], [id^="HTML"], [id^="FeaturedPost"]
+www.car.blog.br,www.motorvicio.com##.index-sidebar, #index-sidebar, #item-sidebar
 
 ! Scriptlets:
 instagram.com##+js(user-redirect-instagram.js)
