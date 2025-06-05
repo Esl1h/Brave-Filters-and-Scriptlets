@@ -1,11 +1,12 @@
-! app.1min.ai
-app.1min.ai##.ant-float-btn.ant-float-btn-default.ant-float-btn-square > .ant-float-btn-body
-
 ! ultimate-guitar.com
 ultimate-guitar.com##.SiteWidePermanentBlock
 ultimate-guitar.com##[class^="APx"]
 ultimate-guitar.com##[class^="j6n"]
 ultimate-guitar.com##[class^="Es6Zq"][class^="ipj9n"]
+
+! Songsterr
+www.songsterr.com##[src*="/media/plus-showroom-panel-"]
+www.songsterr.com##.Cuqdk
 
 ! theoldreader.com
 theoldreader.com###tor-ad-wrapper
@@ -14,7 +15,6 @@ theoldreader.com###in-feed-ad
 theoldreader.com###tor-in-feed-ad-container
 theoldreader.com###banner_container
 theoldreader.com##[id^="in-feed-ad-container"]
-
 
 ! Wikiwand - Intro elements
 www.wikiwand.com##[class^="intro_footer__"]
