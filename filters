@@ -16,25 +16,68 @@ theoldreader.com###tor-in-feed-ad-container
 theoldreader.com###banner_container
 theoldreader.com##[id^="in-feed-ad-container"]
 
-! Wikiwand - Intro elements
-www.wikiwand.com##[class^="intro_footer__"]
-www.wikiwand.com##[class^="intro_header__"]
-www.wikiwand.com##[class^="intro_content__"]
-www.wikiwand.com##[class^="intro_wrapper__"]
-
-! Wikiwand - Extension elements
+! === Wikiwand ===
+www.wikiwand.com##[class^="intro_footer__"], [class^="intro_header__"], [class^="intro_content__"], [class^="intro_wrapper__"]
 www.wikiwand.com##[class^="extensions_wrapper__"]
-
-! Wikiwand - General wrapper combinations (from previous optimization)
 www.wikiwand.com##[class*="wrapper_wrapper__"]:is([class*="wrapper_side__"], [class*="wrapper_atf__"], [class*="wrapper_incontent__"], [class*="wrapper_ob__"])
-
-! Wikiwand - Specific section wrapper content (if the above :is() is too broad or doesn't catch it)
-! www.wikiwand.com##[class*="section_wrapper__"].top-section > [class*="wrapper_wrapper__"][class*="wrapper_incontent__"]
-! Note: A regra :is() acima provavelmente já cobre os casos de wrapper_incontent. Teste se esta é necessária.
-
-! Wikiwand - Minimized AI and Navbar
 www.wikiwand.com##[class*="minimized_wrapper__"].minimized-ai
 www.wikiwand.com##[class^="navbar_actions__"]
+www.wikiwand.com##.wrapper_wrapper__jj00U.wrapper_footer__XQqx4, .wrapper_wrapper__jj00U.wrapper_footer__XQqx4 > .wrapper_container__51TyV
+www.wikiwand.com##.footer_wrapper__eMIDC
+www.wikiwand.com###ww-content > div.wrapper_wrapper__jj00U.wrapper_box__eMVrW:nth-of-type(1), 
+###ww-content > div.wrapper_wrapper__jj00U.wrapper_box__eMVrW:nth-of-type(1) > .wrapper_container__51TyV
+www.wikiwand.com##section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .wrapper_wrapper__jj00U.wrapper_box__eMVrW, 
+section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .wrapper_wrapper__jj00U.wrapper_box__eMVrW > .wrapper_container__51TyV
+www.wikiwand.com##html:style(font-size: 18px !important;)
+www.wikiwand.com##body:style(font-size: 0.95rem !important;)
+www.wikiwand.com##h1, h2, h3, h4, h5, h6:style(font-size: 1.2rem !important;)
+www.wikiwand.com##p, li, td, th:style(font-size: 0.9rem !important;)
+
+! === Wikipedia ===
+wikipedia.org##.mw-page-header, .mw-footer, .mw-indicators, #siteSub, #jump-to-nav, 
+.vector-page-toolbar-container, .vector-toc-pinned-container, 
+.mw-portlet #p-tb, .vector-sitenotice-container, .mw-sidebar
+pt.wikipedia.org##.mw-content-ltr.mw-parser-output > table.hp-kop:nth-of-type(1) > tbody > tr:nth-of-type(1) > td
+pt.wikipedia.org##.mw-content-ltr.mw-parser-output > table.hp-kop:nth-of-type(1) > tbody > tr:nth-of-type(2) > td
+pt.wikipedia.org###p-vector-user-menu-overflow > .vector-menu-content > .vector-menu-content-list
+pt.wikipedia.org###vector-user-links-dropdown-checkbox
+pt.wikipedia.org###vector-user-links-dropdown-label
+pt.wikipedia.org###vector-appearance-dropdown-checkbox
+pt.wikipedia.org###p-lang-btn-checkbox
+pt.wikipedia.org###p-lang-btn-label
+en.wikipedia.org###p-vector-user-menu-overflow > .vector-menu-content > .vector-menu-content-list
+en.wikipedia.org###vector-appearance-dropdown-checkbox
+en.wikipedia.org###vector-appearance-dropdown-label
+en.wikipedia.org###p-lang-btn-checkbox
+en.wikipedia.org###p-lang-btn-label
+wikipedia.org##html:style(font-family: "Inter", "Segoe UI", "Helvetica Neue", sans-serif !important; font-size: 14px !important;)
+wikipedia.org##body:style(max-width: 1900px !important; margin: auto !important; padding: 10px !important; line-height: 1.6 !important; background-color: #f9f9f9 !important;)
+wikipedia.org##.mw-body:style(background: #ffffff !important; border-radius: 4px !important; box-shadow: 0 0 16px rgba(0,0,0,0.05) !important; padding: 20px !important;)
+wikipedia.org##h1, h2, h3, h4, h5, h6:style(font-weight: 900 !important; margin-top: 1.5em !important; margin-bottom: 0.5em !important; font-size: 1.3rem !important;)
+wikipedia.org##p, li:style(font-size: 0.95rem !important; margin-bottom: 0.75em !important;)
+wikipedia.org##.mw-parser-output ul, .mw-parser-output ol:style(padding-left: 1.2em !important;)
+wikipedia.org##table:style(border-collapse: collapse !important; width: 100% !important;)
+wikipedia.org##th, td:style(border: 1px solid #ddd !important; padding: 4px !important; font-size: 0.9rem !important;)
+wikipedia.org##img:style(border-radius: 8px !important; max-width: 100% !important;)
+wikipedia.org##a:style(color: #1a73e8 !important; text-decoration: none !important;)
+wikipedia.org##a:hover:style(text-decoration: underline !important;)
+wikipedia.org##.box-More_citations_needed.plainlinks.metadata.ambox.ambox-content.ambox-Refimprove:style(
+    margin-left: 0 !important; 
+    margin-right: 0 !important; 
+    max-width: 80% !important; 
+    border-radius: 2px !important; 
+    padding: 2px !important; 
+    background-color: #fff8dc !important; 
+    border: 1px solid #ffe599 !important; 
+    box-shadow: none !important; 
+    font-size: 0.9rem !important;)
+en.wikipedia.org##.mw-footer-container
+www.wikiwand.com##.footer_content__dXp0w
+www.wikiwand.com##section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .wrapper_wrapper__jj00U.wrapper_box__eMVrW > .wrapper_container__51TyV
+www.wikiwand.com##section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .wrapper_wrapper__jj00U.wrapper_box__eMVrW
+www.wikiwand.com###ww-content > div.wrapper_wrapper__jj00U.wrapper_box__eMVrW:nth-of-type(1)
+
+
 
 
 ! UOL Motor1 / InsideEVs
