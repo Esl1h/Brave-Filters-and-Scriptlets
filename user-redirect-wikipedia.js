@@ -3,6 +3,9 @@
 (function() {
     const currentUrl = window.location.href;
 
+    // Se a URL contém "oldformat=true", não redireciona
+    if (currentUrl.includes('oldformat=true')) return;
+
     // Verifica se a URL corresponde a um artigo da Wikipedia
     const wikipediaRegex = /^https?:\/\/([a-z]{2,3})\.wikipedia\.org\/wiki\/([^#?]+)/;
     const match = currentUrl.match(wikipediaRegex);
