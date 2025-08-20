@@ -77,9 +77,6 @@ www.wikiwand.com##section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .w
 www.wikiwand.com##section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .wrapper_wrapper__jj00U.wrapper_box__eMVrW
 www.wikiwand.com###ww-content > div.wrapper_wrapper__jj00U.wrapper_box__eMVrW:nth-of-type(1)
 
-
-
-
 ! UOL Motor1 / InsideEVs
 motor1.uol.com.br,insideevs.uol.com.br##.m1-newsfeed_sidebar-wrapper, .m1-newsfeed_sidebar
 motor1.uol.com.br,insideevs.uol.com.br##.m1-top-comments__body
@@ -108,6 +105,41 @@ www.car.blog.br,www.motorvicio.com##.about-author, .entry-tags, .blog-post-comme
 www.car.blog.br,www.motorvicio.com##[id^="PopularPosts"], [id^="BlogList"]
 www.car.blog.br,www.motorvicio.com##[id^="Label"], [id^="BlogArchive"], [id^="HTML"], [id^="FeaturedPost"]
 www.car.blog.br,www.motorvicio.com##.index-sidebar, #index-sidebar, #item-sidebar
+
+! UOL.com.br - Ads and promotional content
+www.uol.com.br##.cardAd[class*="cardAd--"][class*="showLabel"]
+www.uol.com.br###uol-play-1190-340-area-1
+www.uol.com.br##.cardProducts.advertisementArea--showLabel
+www.uol.com.br###esporte-e-negocios-1190-390-area-1
+www.uol.com.br###vitrine-shopping-uol
+www.uol.com.br###produtos-7-mods-1190-300-area-1
+www.uol.com.br###m9vmr52a
+www.uol.com.br###m9vmr4zn3fe .cardAd
+
+! Tecnoblog.net - Comprehensive cleanup
+tecnoblog.net###sidebanner_single, #ad-side-small-1, #ad-side-small-2
+tecnoblog.net##.tb-single-tecnochat, .tb-newsletter, .tb_widget_yt
+tecnoblog.net###comments-body, #fullbanner-container, #sidebar, #footer
+tecnoblog.net##.single-post-relateds.related-tecnocast
+tecnoblog.net##.grid8.single-components.default-layout > section
+tecnoblog.net##.team
+
+! Canaltech
+canaltech.com.br##.mt-6.flex.flex-col.rounded.bg-mglBlue300
+
+! InfoMoney - Ad containers
+www.infomoney.com.br##.bg-wl-neutral-100.max-w-9xl.w-screen[class*="h-\["]
+www.infomoney.com.br###Native-1 .flex.gap-4, #Native-2 .flex.gap-4
+www.infomoney.com.br###SUPER-1 > div, #SUPER-2 > div, #SUPER-3 > div
+
+! Bloomberg Linea - Arcad features and offers
+www.bloomberglinea.com.br##[id^="arcad-feature-"]
+www.bloomberglinea.com.br##[id^="offer_"]
+www.bloomberglinea.com.br##.ts-share-bar-custom.btw
+www.bloomberglinea.com.br##.piano-newsletter, .piano-newsletter-container
+www.bloomberglinea.com.br##.p-2.block.video-size-320x180
+www.bloomberglinea.com.br##.col-sm-12.col-md-xl-4
+www.bloomberglinea.com.br###lazy_81337 .flex-chain .mb-4
 
 ! Scriptlets:
 instagram.com##+js(user-redirect-instagram.js)
