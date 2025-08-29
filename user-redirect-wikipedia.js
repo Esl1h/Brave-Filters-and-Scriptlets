@@ -12,14 +12,15 @@
     if (!match) return;
 
     const lang = match[1];
-    const article = match[2];
+    const article = match[2]; // Já vem encoded da URL
 
     // Verifica tipo de conteúdo com HEAD
     fetch(currentUrl, { method: 'HEAD' })
         .then(response => {
             const contentType = response.headers.get('Content-Type');
             if (contentType && contentType.includes('text/html')) {
-                const newUrl = `https://www.wikiwand.com/${lang}/articles/${encodeURIComponent(article)}`;
+                // Remove o encodeURIComponent para evitar double encoding
+                const newUrl = `https://www.wikiwand.com/${lang}/articles/${article}`;
                 window.location.replace(newUrl);
             }
         })
