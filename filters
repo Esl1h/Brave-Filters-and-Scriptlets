@@ -142,7 +142,7 @@ www.bloomberglinea.com.br##.col-sm-12.col-md-xl-4
 www.bloomberglinea.com.br###lazy_81337 .flex-chain .mb-4
 
 ! Scriptlets:
-instagram.com##+js(user-redirect-instagram.js)
 wikipedia.org##+js(user-redirect-wikipedia.js)
-imdb.com##+js(user-redirect-imdb.js)
-quora.com##+js(user-redirect-quora.js)
+# instagram.com##+js(user-redirect-instagram.js)
+# imdb.com##+js(user-redirect-imdb.js)
+# quora.com##+js(user-redirect-quora.js)
