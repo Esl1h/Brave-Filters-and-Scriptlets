@@ -24,9 +24,9 @@ www.wikiwand.com##[class*="minimized_wrapper__"].minimized-ai
 www.wikiwand.com##[class^="navbar_actions__"]
 www.wikiwand.com##.wrapper_wrapper__jj00U.wrapper_footer__XQqx4, .wrapper_wrapper__jj00U.wrapper_footer__XQqx4 > .wrapper_container__51TyV
 www.wikiwand.com##.footer_wrapper__eMIDC
-www.wikiwand.com###ww-content > div.wrapper_wrapper__jj00U.wrapper_box__eMVrW:nth-of-type(1), 
+www.wikiwand.com###ww-content > div.wrapper_wrapper__jj00U.wrapper_box__eMVrW:nth-of-type(1),
 ###ww-content > div.wrapper_wrapper__jj00U.wrapper_box__eMVrW:nth-of-type(1) > .wrapper_container__51TyV
-www.wikiwand.com##section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .wrapper_wrapper__jj00U.wrapper_box__eMVrW, 
+www.wikiwand.com##section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .wrapper_wrapper__jj00U.wrapper_box__eMVrW,
 section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .wrapper_wrapper__jj00U.wrapper_box__eMVrW > .wrapper_container__51TyV
 www.wikiwand.com##html:style(font-size: 18px !important;)
 www.wikiwand.com##body:style(font-size: 0.95rem !important;)
@@ -34,8 +34,10 @@ www.wikiwand.com##h1, h2, h3, h4, h5, h6:style(font-size: 1.2rem !important;)
 www.wikiwand.com##p, li, td, th:style(font-size: 0.9rem !important;)
 
 ! === Wikipedia ===
-wikipedia.org##.mw-page-header, .mw-footer, .mw-indicators, #siteSub, #jump-to-nav, 
-.vector-page-toolbar-container, .vector-toc-pinned-container, 
+pt.wikipedia.org##.cbnnr-main-container
+en.wikipedia.org##.cbnnr-main-container
+wikipedia.org##.mw-page-header, .mw-footer, .mw-indicators, #siteSub, #jump-to-nav,
+.vector-page-toolbar-container, .vector-toc-pinned-container,
 .mw-portlet #p-tb, .vector-sitenotice-container, .mw-sidebar
 pt.wikipedia.org##.mw-content-ltr.mw-parser-output > table.hp-kop:nth-of-type(1) > tbody > tr:nth-of-type(1) > td
 pt.wikipedia.org##.mw-content-ltr.mw-parser-output > table.hp-kop:nth-of-type(1) > tbody > tr:nth-of-type(2) > td
@@ -62,16 +64,21 @@ wikipedia.org##img:style(border-radius: 8px !important; max-width: 100% !importa
 wikipedia.org##a:style(color: #1a73e8 !important; text-decoration: none !important;)
 wikipedia.org##a:hover:style(text-decoration: underline !important;)
 wikipedia.org##.box-More_citations_needed.plainlinks.metadata.ambox.ambox-content.ambox-Refimprove:style(
-    margin-left: 0 !important; 
-    margin-right: 0 !important; 
-    max-width: 80% !important; 
-    border-radius: 2px !important; 
-    padding: 2px !important; 
-    background-color: #fff8dc !important; 
-    border: 1px solid #ffe599 !important; 
-    box-shadow: none !important; 
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 80% !important;
+    border-radius: 2px !important;
+    padding: 2px !important;
+    background-color: #fff8dc !important;
+    border: 1px solid #ffe599 !important;
+    box-shadow: none !important;
     font-size: 0.9rem !important;)
 en.wikipedia.org##.mw-footer-container
+
+! Wikiwand
+www.wikiwand.com##._actions_gly3d_3
+www.wikiwand.com##._container_1hvza_1
+www.wikiwand.com##._container_zkb23_1
 www.wikiwand.com##.footer_content__dXp0w
 www.wikiwand.com##section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .wrapper_wrapper__jj00U.wrapper_box__eMVrW > .wrapper_container__51TyV
 www.wikiwand.com##section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .wrapper_wrapper__jj00U.wrapper_box__eMVrW
@@ -86,16 +93,40 @@ motor1.uol.com.br##[id*="_M1_br_DMPU_dmpu_first_"], [id*="_M1_br_DMPU_dmpu_1_"]
 motor1.uol.com.br##.item.sidebar.flex.flex-col.gap-spacing-md-lg
 motor1.uol.com.br###post_sidebar
 
+! WebMotors
+www.webmotors.com.br##.modal--content.modal--financing
+www.webmotors.com.br##.overlay.overlay--active
+www.webmotors.com.br##.modal.modal--open
+www.webmotors.com.br###ad-search-result-05
+
 ! Quatro Rodas Abril
 quatrorodas.abril.com.br##.f-brands > .container
 quatrorodas.abril.com.br##.block.cinquenta-anos.light
 quatrorodas.abril.com.br##[id^="abril_widget_assinatura-"]
+quatrorodas.abril.com.br##.ads.after-text.noreadme-audima
+quatrorodas.abril.com.br###anchorToggle
+quatrorodas.abril.com.br##.top-share.noreadme-audima
+quatrorodas.abril.com.br##.top-share.noreadme-audima
+quatrorodas.abril.com.br##.top-share.noreadme-audima
+quatrorodas.abril.com.br##.noreadme-audima.mobile-assine-ticker__track > span:nth-of-type(1)
+quatrorodas.abril.com.br##.noreadme-audima.mobile-assine-ticker
+quatrorodas.abril.com.br##.google-preferred-source-btn
+quatrorodas.abril.com.br##.accessibility-buttons.noreadme-audima.has-google-btn
+quatrorodas.abril.com.br##.dropdown-resumo
+quatrorodas.abril.com.br###audima-iframe
+quatrorodas.abril.com.br##.noreadme-audima.mobile-assine.hide-l.on > span
+quatrorodas.abril.com.br##.mobile-assine.hide-l.on > span
 
 ! Noticias Automotivas
 www.noticiasautomotivas.com.br##.ml-form-align-center, [id^="dsq-app"]
 www.noticiasautomotivas.com.br##.crunchify-social, .rmp-rating-widget
 www.noticiasautomotivas.com.br##[href*="https://news.google.com/publications/CAAiEHMyvWNtUgpkaWzXJ7igMcYqFAgKIhBzMr1jbVIKZGls1ye4oDHG"] > .ezlazyloaded
 www.noticiasautomotivas.com.br##.cat-links
+www.noticiasautomotivas.com.br##.na-auto-poll
+www.noticiasautomotivas.com.br##.entry-content > div:nth-of-type(2)
+www.noticiasautomotivas.com.br##.author-box
+www.noticiasautomotivas.com.br##.inside-article > div:nth-of-type(3)
+www.noticiasautomotivas.com.br##.caixa-veja-tambem
 ! As regras abaixo são muito genéricas e podem causar falsos positivos. Use com cautela ou torne-as mais específicas.
 ! www.noticiasautomotivas.com.br##b:nth-of-type(1)
 ! www.noticiasautomotivas.com.br##b:nth-of-type(2)
@@ -106,7 +137,7 @@ www.car.blog.br,www.motorvicio.com##[id^="PopularPosts"], [id^="BlogList"]
 www.car.blog.br,www.motorvicio.com##[id^="Label"], [id^="BlogArchive"], [id^="HTML"], [id^="FeaturedPost"]
 www.car.blog.br,www.motorvicio.com##.index-sidebar, #index-sidebar, #item-sidebar
 
-! UOL.com.br - Ads and promotional content
+! UOL.com.br
 www.uol.com.br##.cardAd[class*="cardAd--"][class*="showLabel"]
 www.uol.com.br###uol-play-1190-340-area-1
 www.uol.com.br##.cardProducts.advertisementArea--showLabel
@@ -115,6 +146,14 @@ www.uol.com.br###vitrine-shopping-uol
 www.uol.com.br###produtos-7-mods-1190-300-area-1
 www.uol.com.br###m9vmr52a
 www.uol.com.br###m9vmr4zn3fe .cardAd
+www.folha.uol.com.br##.col.col--md-2-5.col--lg-1-3.col-offset--lg-3-14
+www.folha.uol.com.br###top-signup-close > .container > .flex.flex--justify-center > div.flex-cell:nth-of-type(1) > .row > .col.col--md-1-4
+www.folha.uol.com.br###c-top-signup-inner
+www.folha.uol.com.br##.col.col--md-1-5
+www.folha.uol.com.br###top-signup-close > .container > .flex.flex--justify-center > div.flex-cell:nth-of-type(1)
+www.folha.uol.com.br###top-signup-close > .container > .flex.flex--justify-center
+www1.folha.uol.com.br###c-top-signup-inner > .container > div.flex.flex--center:nth-of-type(1)
+www1.folha.uol.com.br###c-top-signup-inner
 
 ! Tecnoblog.net - Comprehensive cleanup
 tecnoblog.net###sidebanner_single, #ad-side-small-1, #ad-side-small-2
@@ -141,8 +180,19 @@ www.bloomberglinea.com.br##.p-2.block.video-size-320x180
 www.bloomberglinea.com.br##.col-sm-12.col-md-xl-4
 www.bloomberglinea.com.br###lazy_81337 .flex-chain .mb-4
 
+! Outros sites
+www.receiteria.com.br###banner-300x250-area
+www.receiteria.com.br##div.adpost:nth-of-type(6)
+www.reclameaqui.com.br##.sc-nvfyvf-2.jlzgwY > div:nth-of-type(1) > div:nth-of-type(1)
+crusoe.com.br##.adwall-content
+crusoe.com.br###al-adwall-ui
+www.moneytimes.com.br###ad-slot-inarticle-mobile_2
+www.moneytimes.com.br##div.borderAD.borderAD-mobile:nth-of-type(9)
+
+
+
 ! Scriptlets:
-wikipedia.org##+js(user-redirect-wikipedia.js)
+ wikipedia.org##+js(user-redirect-wikipedia.js)
 # instagram.com##+js(user-redirect-instagram.js)
 # imdb.com##+js(user-redirect-imdb.js)
 # quora.com##+js(user-redirect-quora.js)
