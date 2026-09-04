@@ -41,6 +41,9 @@ Redirects:
 - wikipedia to wikiwand
 - imdb to https://github.com/zyachel/libremdb[libremdb]
 - quora to https://github.com/zyachel/quetre[quetre]
+- youtube to https://github.com/TeamPiped/Piped[Piped]
+- reddit to https://github.com/redlib-org/redlib[Redlib]
+- tiktok to https://github.com/pablouser1/ProxiTok[ProxiTok]
 
 ++++
 <br><br>
