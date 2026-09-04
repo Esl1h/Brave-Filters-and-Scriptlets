@@ -5,6 +5,8 @@
 ! Version: 2026.09.04
 ! Last modified: 2026-09-04
 ! Expires: 4 days
+!
+! Related read: https://esli.blog/posts/como-fugir-das-propaganda-na-internet/
 
 ! ultimate-guitar.com
 ultimate-guitar.com##.SiteWidePermanentBlock
@@ -185,6 +187,82 @@ www.moneytimes.com.br###ad-slot-inarticle-mobile_2
 www.moneytimes.com.br##div.borderAD.borderAD-mobile:nth-of-type(9)
 
 
+
+! === Anti-paywall (based on Burlesco) ===
+! Ported from https://github.com/burlesco/userscript/blob/master/src/burlesco.user.js
+! For full coverage (including sites this list can't reach), install
+! Tampermonkey and add the Burlesco userscript as a complement:
+! https://github.com/burlesco/userscript/blob/master/src/burlesco.user.js
+! Not covered here: jota.info, ft.com, wsj.com, haaretz.com, haaretz.co.il,
+! gauchazh.clicrbs.com.br - they rely on User-Agent/Referer spoofing via
+! GM_xmlhttpRequest, which no browser filter/scriptlet can do; only the
+! userscript reaches them.
+
+! Anti-paywall: network blocking
+||cdn.tinypass.com/api/tinypass.min.js^
+||api.tinypass.com^
+||dashboard.tinypass.com/xbuilder/experience/load*
+||correio-static.cworks.cloud/vendor/bower_components/paywall.js/paywall.js
+||paywall.folha.uol.com.br^
+@@||paywall.folha.uol.com.br/status.php^
+||static.folha.uol.com.br/paywall/*
+||static.infoglobo.com.br/paywall/register-piano/*/scripts/nova-tela-register.js
+||static.infoglobo.com.br/paywall/js/tiny.js
+||ogjs.infoglobo.com.br/*/js/controla-acesso-aux.js
+||netdeal.com.br^
+||correio.rac.com.br/includes/js/novo_cp/fivewall.js*
+||fivewall.com.br^
+||nytimes.com/js/mtr.js
+||washingtonpost.com/wp-stat/pwapi/*
+||tm.jsuol.com.br/modules/content-gate.js
+||paywall.nsctotal.com.br/behaviors
+||folhadelondrina.com.br/login.php*
+||eltiempo.com/js/desktopArticle.js*
+||haaretz.co.il/*/inter.js
+||themarker.com/*/inter.js
+||diarinho.com.br/wp-admin/admin-ajax.php
+||abril.com.br/wp-content/plugins/abril-plugins/abril-paywall/js/paywall.js*
+||exame.com/wp-content/themes/exame-new/js/pywll.js
+||prisa-el-pais-brasil-prod.cdn.arcpublishing.com/arc/subs/p.js
+||prisa-el-pais-prod.cdn.arcpublishing.com/arc/subs/p.js
+||brasil.elpais.com/pf/resources/dist/js/article.js*
+||gauchazh.clicrbs.com.br/static/signwall.*.min.js
+||zephr.com/zephr-browser/*/zephr-browser.umd.js
+
+! Anti-paywall: cosmetic-only fixes
+correiodopovo.com.br##[id^="pwm"] > div
+correiodopovo.com.br##[id^="pwm"] > iframe
+correiodopovo.com.br##body:style(overflow: initial !important;)
+foreignpolicy.com###paywall_bg
+foreignpolicy.com##body:style(overflow: visible !important;)
+em.com.br##.news-blocked
+em.com.br##.news-blocked-no-scroll:style(overflow: auto !important; width: auto !important; position: unset !important;)
+em.com.br##div[itemprop="articleBody"]:style(height: auto !important;)
+wired.com##.paywall-container-component
+forbes.com##.zephr-backdrop
+forbes.com##.zephr-generic-modal
+forbes.com##html:style(overflow: auto !important;)
+seudinheiro.com###premium-paywall
+seudinheiro.com##body:style(overflow: initial !important;)
+revistagalileu.globo.com###detecta-adblock
+revistagalileu.globo.com##body:style(overflow: initial !important;)
+
+! Anti-paywall: scriptlet-based fixes (see user-antipaywall.js)
+crusoe.com.br##+js(user-antipaywall.js)
+economist.com##+js(user-antipaywall.js)
+folha.uol.com.br##+js(user-antipaywall.js)
+estadao.com.br##+js(user-antipaywall.js)
+abril.com.br##+js(user-antipaywall.js)
+correio24horas.com.br##+js(user-antipaywall.js)
+nytimes.com##+js(user-antipaywall.js)
+bloomberg.com##+js(user-antipaywall.js)
+diariodaregiao.com.br##+js(user-antipaywall.js)
+diariopopular.com.br##+js(user-antipaywall.js)
+dgabc.com.br##+js(user-antipaywall.js)
+newsweek.pl##+js(user-antipaywall.js)
+forbes.pl##+js(user-antipaywall.js)
+observador.pt##+js(user-antipaywall.js)
+technologyreview.com##+js(user-antipaywall.js)
 
 ! Scriptlets:
  wikipedia.org##+js(user-redirect-wikipedia.js)
