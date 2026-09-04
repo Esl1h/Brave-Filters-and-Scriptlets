@@ -56,7 +56,7 @@ In `brave://settings/shields/filters`, besides this list I also enable, from Bra
 - Brave's "Experimental filter list"
 
 **DNS-level filtering**
-Pick one resolver and benchmark it against your ISP with [GRC's DNS Benchmark](https://www.grc.com/dns/benchmark.htm):
+Pick one resolver and benchmark it against your ISP with [DNSbench](https://github.com/Esl1h/DNSbench) or [dnsperf.com](https://www.dnsperf.com/#!dns-resolvers):
 - [NextDNS](https://nextdns.io/?from=yes2mwwr): what I use, configurable DoH/DoT resolver with blocklists and per-device logging.
 - [Quad9 (Secure w/ ECS)](https://quad9.net/pt/service/service-addresses-and-features/): a solid alternative if you'd rather not use NextDNS.
 
@@ -129,7 +129,7 @@ Em `brave://settings/shields/filters`, além desta lista, também habilito, no s
 - "Experimental filter list" do Brave
 
 **Filtragem em nível de DNS**
-Escolha um resolvedor e compare com o do seu provedor usando o [DNS Benchmark da GRC](https://www.grc.com/dns/benchmark.htm):
+Escolha um resolvedor e compare com o do seu provedor usando o [DNSbench](https://github.com/Esl1h/DNSbench) ou o [dnsperf.com](https://www.dnsperf.com/#!dns-resolvers):
 - [NextDNS](https://nextdns.io/?from=yes2mwwr): o que eu uso, resolvedor DoH/DoT configurável, com blocklists e logs por dispositivo.
 - [Quad9 (Secure w/ ECS)](https://quad9.net/pt/service/service-addresses-and-features/): uma alternativa sólida caso prefira não usar o NextDNS.
 
