@@ -32,10 +32,8 @@ www.wikiwand.com##[class*="minimized_wrapper__"].minimized-ai
 www.wikiwand.com##[class^="navbar_actions__"]
 www.wikiwand.com##.wrapper_wrapper__jj00U.wrapper_footer__XQqx4, .wrapper_wrapper__jj00U.wrapper_footer__XQqx4 > .wrapper_container__51TyV
 www.wikiwand.com##.footer_wrapper__eMIDC
-www.wikiwand.com###ww-content > div.wrapper_wrapper__jj00U.wrapper_box__eMVrW:nth-of-type(1),
-###ww-content > div.wrapper_wrapper__jj00U.wrapper_box__eMVrW:nth-of-type(1) > .wrapper_container__51TyV
-www.wikiwand.com##section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .wrapper_wrapper__jj00U.wrapper_box__eMVrW,
-section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .wrapper_wrapper__jj00U.wrapper_box__eMVrW > .wrapper_container__51TyV
+www.wikiwand.com###ww-content > div.wrapper_wrapper__jj00U.wrapper_box__eMVrW:nth-of-type(1), #ww-content > div.wrapper_wrapper__jj00U.wrapper_box__eMVrW:nth-of-type(1) > .wrapper_container__51TyV
+www.wikiwand.com##section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .wrapper_wrapper__jj00U.wrapper_box__eMVrW, section.section_wrapper__8dcj4.top-section:nth-of-type(2) > .wrapper_wrapper__jj00U.wrapper_box__eMVrW > .wrapper_container__51TyV
 www.wikiwand.com##html:style(font-size: 18px !important;)
 www.wikiwand.com##body:style(font-size: 0.95rem !important;)
 www.wikiwand.com##h1, h2, h3, h4, h5, h6:style(font-size: 1.2rem !important;)
@@ -44,9 +42,7 @@ www.wikiwand.com##p, li, td, th:style(font-size: 0.9rem !important;)
 ! === Wikipedia ===
 pt.wikipedia.org##.cbnnr-main-container
 en.wikipedia.org##.cbnnr-main-container
-wikipedia.org##.mw-page-header, .mw-footer, .mw-indicators, #siteSub, #jump-to-nav,
-.vector-page-toolbar-container, .vector-toc-pinned-container,
-.mw-portlet #p-tb, .vector-sitenotice-container, .mw-sidebar
+wikipedia.org##.mw-page-header, .mw-footer, .mw-indicators, #siteSub, #jump-to-nav, .vector-page-toolbar-container, .vector-toc-pinned-container, .mw-portlet #p-tb, .vector-sitenotice-container, .mw-sidebar
 pt.wikipedia.org##.mw-content-ltr.mw-parser-output > table.hp-kop:nth-of-type(1) > tbody > tr:nth-of-type(1) > td
 pt.wikipedia.org##.mw-content-ltr.mw-parser-output > table.hp-kop:nth-of-type(1) > tbody > tr:nth-of-type(2) > td
 pt.wikipedia.org###p-vector-user-menu-overflow > .vector-menu-content > .vector-menu-content-list
@@ -71,16 +67,7 @@ wikipedia.org##th, td:style(border: 1px solid #ddd !important; padding: 4px !imp
 wikipedia.org##img:style(border-radius: 8px !important; max-width: 100% !important;)
 wikipedia.org##a:style(color: #1a73e8 !important; text-decoration: none !important;)
 wikipedia.org##a:hover:style(text-decoration: underline !important;)
-wikipedia.org##.box-More_citations_needed.plainlinks.metadata.ambox.ambox-content.ambox-Refimprove:style(
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    max-width: 80% !important;
-    border-radius: 2px !important;
-    padding: 2px !important;
-    background-color: #fff8dc !important;
-    border: 1px solid #ffe599 !important;
-    box-shadow: none !important;
-    font-size: 0.9rem !important;)
+wikipedia.org##.box-More_citations_needed.plainlinks.metadata.ambox.ambox-content.ambox-Refimprove:style(margin-left: 0 !important; margin-right: 0 !important; max-width: 80% !important; border-radius: 2px !important; padding: 2px !important; background-color: #fff8dc !important; border: 1px solid #ffe599 !important; box-shadow: none !important; font-size: 0.9rem !important;)
 en.wikipedia.org##.mw-footer-container
 
 ! Wikiwand
