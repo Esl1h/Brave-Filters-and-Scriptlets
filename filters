@@ -193,6 +193,6 @@ www.moneytimes.com.br##div.borderAD.borderAD-mobile:nth-of-type(9)
 
 ! Scriptlets:
  wikipedia.org##+js(user-redirect-wikipedia.js)
-# instagram.com##+js(user-redirect-instagram.js)
-# imdb.com##+js(user-redirect-imdb.js)
-# quora.com##+js(user-redirect-quora.js)
+instagram.com##+js(user-redirect-instagram.js)
+imdb.com##+js(user-redirect-imdb.js)
+quora.com##+js(user-redirect-quora.js)
