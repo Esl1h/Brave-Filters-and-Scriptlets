@@ -68,3 +68,76 @@ Pick one resolver and benchmark it against your ISP with [GRC's DNS Benchmark](h
 
 - `filters.txt` / `filters` are released under [CC0 1.0](LICENSE) (public domain).
 - The `*.js` scriptlets are released under the [MIT License](LICENSE-MIT).
+
+---
+
+## Português
+
+Lista pessoal de filtros cosméticos e scriptlets de redirecionamento para o bloqueador de anúncios nativo do Brave (também compatível com uBlock Origin, AdGuard e AdBlock Plus). 148 regras em 31 domínios, além de 7 scriptlets que redirecionam sites populares para frontends alternativos focados em privacidade.
+
+> **Escopo:** esta é uma lista pequena e pessoal, focada nos poucos sites que eu realmente uso no dia a dia, não pretende ser um bloqueador de anúncios genérico. Veja [Configuração recomendada](#configuração-recomendada) abaixo para o que uso junto com ela.
+
+### Assinatura rápida
+
+URL raw da lista de filtros:
+
+```
+https://raw.githubusercontent.com/Esl1h/Brave-Filters-and-Scriptlets/main/filters.txt
+```
+
+Assinatura em um clique (uBlock Origin / AdGuard / AdBlock Plus):
+
+[Assinar](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FEsl1h%2FBrave-Filters-and-Scriptlets%2Fmain%2Ffilters.txt&title=Esli%27s%20Brave%20Filters)
+
+**Brave:** acesse `brave://settings/shields/filters`, em "Custom filter lists" clique em "Add filter list" e cole a URL raw acima.
+
+### O que ela bloqueia
+
+Elementos incômodos, pop-ups e sujeira visual em:
+
+- Ultimate Guitar, Songsterr, TheOldReader
+- Wikipedia e Wikiwand (também reestiliza tipografia e layout)
+- Sites brasileiros de notícias e automotivos: UOL, Folha, Motor1, InsideEVs, WebMotors, Quatro Rodas, Notícias Automotivas, Tecnoblog, Canaltech, InfoMoney, Bloomberg Línea, MoneyTimes, ReclameAqui, e alguns blogs menores
+
+Veja [`filters.txt`](filters.txt) para o conjunto completo de regras.
+
+### Scriptlets
+
+Scriptlets de redirecionamento que trocam um site por um frontend alternativo focado em privacidade:
+
+| Site | Redireciona para |
+|---|---|
+| Wikipedia | [Wikiwand](https://www.wikiwand.com) |
+| Instagram | [imginn](https://imginn.com) |
+| IMDb | [libremdb](https://github.com/zyachel/libremdb) |
+| Quora | [quetre](https://github.com/zyachel/quetre) |
+| YouTube | [Piped](https://github.com/TeamPiped/Piped) |
+| Reddit | [Redlib](https://github.com/redlib-org/redlib) |
+| TikTok | [ProxiTok](https://github.com/pablouser1/ProxiTok) |
+
+O scriptlet da Wikipedia é habilitado automaticamente ao assinar o `filters.txt`. Os demais precisam ser adicionados manualmente como scriptlets personalizados no Brave (`brave://settings/shields/filters` → habilite o Modo Desenvolvedor → cole o conteúdo do arquivo `.js`): veja [`docs/README.adoc`](docs/README.adoc) para o passo a passo.
+
+Instâncias públicas desses frontends mudam com frequência; se um redirecionamento parar de funcionar, verifique a lista de instâncias do projeto correspondente.
+
+### Configuração recomendada
+
+Esta lista é uma camada de uma configuração mais ampla. O que combino com ela:
+
+**Brave Shields: listas de filtro extras**
+Em `brave://settings/shields/filters`, além desta lista, também habilito, no seletor nativo de listas do Brave:
+- "Spanish and Portuguese website ad blocker" (AdGuard)
+- "Experimental filter list" do Brave
+
+**Filtragem em nível de DNS**
+Escolha um resolvedor e compare com o do seu provedor usando o [DNS Benchmark da GRC](https://www.grc.com/dns/benchmark.htm):
+- [NextDNS](https://nextdns.io/?from=yes2mwwr): o que eu uso, resolvedor DoH/DoT configurável, com blocklists e logs por dispositivo.
+- [Quad9 (Secure w/ ECS)](https://quad9.net/pt/service/service-addresses-and-features/): uma alternativa sólida caso prefira não usar o NextDNS.
+
+**Listas complementares**
+- [EasyList Portuguese](https://easylist-downloads.adblockplus.org/easylistportuguese.txt) ([assinatura em um clique](https://subscribe.adblockplus.org?location=https://easylist-downloads.adblockplus.org/easylistportuguese.txt&title=EasyList%20Portuguese&requiresLocation=https://easylist-downloads.adblockplus.org/easylist.txt&requiresTitle=EasyList)): bloqueio de anúncios em português de forma geral, complementa as regras específicas por site desta lista.
+- [HaGeZi Multi PRO](https://github.com/hagezi/dns-blocklists#ledger-multi-pro-extended-protection-recommended-), blocklist de DNS ([formato adblock](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt) / [formato domains](https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro-onlydomains.txt)): para NextDNS, Quad9, Pi-hole ou AdGuard Home.
+
+### Licença
+
+- `filters.txt` / `filters` são distribuídos sob [CC0 1.0](LICENSE) (domínio público).
+- Os scriptlets `*.js` são distribuídos sob a [Licença MIT](LICENSE-MIT).
