@@ -2,8 +2,8 @@
 ! Description: Cosmetic filters and redirect scriptlets for annoying UI on Wikipedia, Wikiwand, Ultimate Guitar, Songsterr, TheOldReader and Brazilian news/auto sites
 ! Homepage: https://github.com/Esl1h/Brave-Filters-and-Scriptlets
 ! License: https://github.com/Esl1h/Brave-Filters-and-Scriptlets/blob/main/LICENSE
-! Version: 2026.09.04
-! Last modified: 2026-09-04
+! Version: 2026.10.05
+! Last modified: 2026-10-05
 ! Expires: 4 days
 !
 ! Related read: https://esli.blog/posts/como-fugir-das-propaganda-na-internet/
@@ -135,6 +135,20 @@ www.car.blog.br,www.motorvicio.com##[id^="Label"], [id^="BlogArchive"], [id^="HT
 www.car.blog.br,www.motorvicio.com##.index-sidebar, #index-sidebar, #item-sidebar
 
 ! UOL.com.br
+! Gazeta do Povo: CSS Modules com hash por deploy. Os filtros abaixo usam
+! prefixos de módulo ([class^="..."]) para sobreviver a novos hashes.
+! Nota: "adsFooter" e "AdsFooter" são módulos distintos.
+www.gazetadopovo.com.br##[class^="adsFooter-module-scss-module__"], [class^="AdsFooter-module-scss-module__"]
+www.gazetadopovo.com.br##[class^="adMobile-module-scss-module__"]
+www.gazetadopovo.com.br##[class^="topBannerAd-module-scss-module__"]
+www.gazetadopovo.com.br##[class^="AdBanner-module-scss-module__"]
+www.gazetadopovo.com.br##[id^="position_"]
+www.gazetadopovo.com.br###header
+! UOL Notícias: player do canal-uol-video (id "yt--<hash>" muda por deploy)
+noticias.uol.com.br##[class^="canal-uol-video__"]
+noticias.uol.com.br##[id^="yt--"]
+! Frágil a deploy: classes só de hash, sem parte estável para padronizar
+noticias.uol.com.br##.ZWlWrZbx > div.AOibiaBt:nth-of-type(1)
 www.uol.com.br##.cardAd[class*="cardAd--"][class*="showLabel"]
 www.uol.com.br###uol-play-1190-340-area-1
 www.uol.com.br##.cardProducts.advertisementArea--showLabel
