@@ -44,6 +44,9 @@ www.wikiwand.com##p, li, td, th:style(font-size: 0.9rem !important;)
 ! === Wikipedia ===
 pt.wikipedia.org##.cbnnr-main-container
 en.wikipedia.org##.cbnnr-main-container
+wikipedia.org##.frb-inline-main
+pt.wikipedia.org###mwBA > div:nth-of-type(1)
+en.wikipedia.org###wle-br-banner
 wikipedia.org##.mw-page-header, .mw-footer, .mw-indicators, #siteSub, #jump-to-nav, .vector-page-toolbar-container, .vector-toc-pinned-container, .mw-portlet #p-tb, .vector-sitenotice-container, .mw-sidebar
 pt.wikipedia.org##.mw-content-ltr.mw-parser-output > table.hp-kop:nth-of-type(1) > tbody > tr:nth-of-type(1) > td
 pt.wikipedia.org##.mw-content-ltr.mw-parser-output > table.hp-kop:nth-of-type(1) > tbody > tr:nth-of-type(2) > td
@@ -70,7 +73,7 @@ wikipedia.org##img:style(border-radius: 8px !important; max-width: 100% !importa
 wikipedia.org##a:style(color: #1a73e8 !important; text-decoration: none !important;)
 wikipedia.org##a:hover:style(text-decoration: underline !important;)
 wikipedia.org##.box-More_citations_needed.plainlinks.metadata.ambox.ambox-content.ambox-Refimprove:style(margin-left: 0 !important; margin-right: 0 !important; max-width: 80% !important; border-radius: 2px !important; padding: 2px !important; background-color: #fff8dc !important; border: 1px solid #ffe599 !important; box-shadow: none !important; font-size: 0.9rem !important;)
-en.wikipedia.org##.mw-footer-container
+wikipedia.org##.mw-footer-container
 
 ! Wikiwand
 www.wikiwand.com##._actions_gly3d_3
@@ -144,6 +147,19 @@ www.gazetadopovo.com.br##[class^="topBannerAd-module-scss-module__"]
 www.gazetadopovo.com.br##[class^="AdBanner-module-scss-module__"]
 www.gazetadopovo.com.br##[id^="position_"]
 www.gazetadopovo.com.br###header
+www.gazetadopovo.com.br##[class^="homeAdSlot-module-scss-module__"]
+www.gazetadopovo.com.br##[class^="postAside-module-scss-module__"]
+www.gazetadopovo.com.br##[class^="adBanner-module-scss-module__"]
+www.gazetadopovo.com.br##[id^="d-pos-"]
+www.gazetadopovo.com.br##[class^="outbrain-module-scss-module__"]
+www.gazetadopovo.com.br##[class^="newsOnSmartphone-module-scss-module__"]
+www.gazetadopovo.com.br##[class^="adSidebar-module-scss-module__"]
+www.gazetadopovo.com.br##[class^="adDesktop-module-scss-module__"]
+www.gazetadopovo.com.br##[class^="widgetNewsChannel-module-scss-module__"]
+www.gazetadopovo.com.br##[class^="tudoSobreTagLayout-module-scss-module__"][class$="__publicidade"]
+www.gazetadopovo.com.br##[class^="ButtonWhatsAppNews-module-scss-module__"]
+www.gazetadopovo.com.br###native
+www.gazetadopovo.com.br###pianoContentPrimary
 ! UOL Notícias: player do canal-uol-video (id "yt--<hash>" muda por deploy)
 noticias.uol.com.br##[class^="canal-uol-video__"]
 noticias.uol.com.br##[id^="yt--"]
@@ -157,12 +173,20 @@ www.uol.com.br###vitrine-shopping-uol
 www.uol.com.br###produtos-7-mods-1190-300-area-1
 www.uol.com.br###m9vmr52a
 www.uol.com.br###m9vmr4zn3fe .cardAd
+www.uol.com.br##section.orderSections__section.section:nth-of-type(7), section.orderSections__section.section:nth-of-type(8), section.orderSections__section.section:nth-of-type(9), section.orderSections__section.section:nth-of-type(10), section.orderSections__section.section:nth-of-type(11), section.orderSections__section.section:nth-of-type(15), section.orderSections__section.section:nth-of-type(16), section.orderSections__section.section:nth-of-type(17), section.orderSections__section.section:nth-of-type(18)
+www.uol.com.br##section.orderSections__section.section:nth-of-type(5) > .container > div.row:nth-of-type(1) > div.col-24:nth-of-type(2)
+www.uol.com.br##.cardTeams__headerCard.edgeToEdge--xs.cardTeams__animated.headerCard
+www.uol.com.br##.blackBar
+www.uol.com.br##.footer
+www.uol.com.br##[class^="cardVideo__containerPlayer"], .cardVideo__header.cardVideo__live__header
+! Frágil a deploy: id só de hash, sem parte estável
+www.uol.com.br###mfne933n
 www.folha.uol.com.br##.col.col--md-2-5.col--lg-1-3.col-offset--lg-3-14
-www.folha.uol.com.br###top-signup-close > .container > .flex.flex--justify-center > div.flex-cell:nth-of-type(1) > .row > .col.col--md-1-4
+www.folha.uol.com.br###top-signup-close
 www.folha.uol.com.br###c-top-signup-inner
 www.folha.uol.com.br##.col.col--md-1-5
-www.folha.uol.com.br###top-signup-close > .container > .flex.flex--justify-center > div.flex-cell:nth-of-type(1)
-www.folha.uol.com.br###top-signup-close > .container > .flex.flex--justify-center
+www1.folha.uol.com.br###paywall-flutuante
+www1.folha.uol.com.br###top-signup-close
 www1.folha.uol.com.br###c-top-signup-inner > .container > div.flex.flex--center:nth-of-type(1)
 www1.folha.uol.com.br###c-top-signup-inner
 
@@ -176,6 +200,31 @@ tecnoblog.net##.team
 
 ! Canaltech
 canaltech.com.br##.mt-6.flex.flex-col.rounded.bg-mglBlue300
+canaltech.com.br##.sticky.top-2 > .flex.flex-col.rounded.bg-mglBlue300.p-6.text-mglGray50.mt-4
+canaltech.com.br##.mb-\[24px\].flex.flex-col.items-center.justify-between.gap-4.rounded-md.bg-white.p-4.text-center.shadow-mdc-elevation-z9-3.outline.outline-2.outline-\[\#25D366\].phone\:flex-row.phone\:text-left
+
+! Adrenaline
+www.adrenaline.com.br##.adr-ps-official > div
+www.adrenaline.com.br##.barra-grupos.barra-grupos-azul
+www.adrenaline.com.br##div.barra-grupos:nth-of-type(6)
+www.adrenaline.com.br##.code-block.code-block-65 > div, .code-block.code-block-66 > div, .code-block.code-block-67 > div
+www.adrenaline.com.br##.mc-newsletter-block
+www.adrenaline.com.br##.single-text-informative-content
+www.adrenaline.com.br##.wrapper.single-text-main.section-comments
+www.adrenaline.com.br##.section-videos-banner.d-none.d-lg-block.perfmatters-lazy.entered.pmloaded
+
+! TudoCelular
+www.tudocelular.com##[src*="/new_files/ajax/bf_new.php"]
+www.tudocelular.com###main_container > div:nth-of-type(4)
+www.tudocelular.com###bottomnav
+www.tudocelular.com##.big_notices.inline_block.inline_block_news
+
+! LinkedIn
+! Frágil a deploy: classes só de hash, sem parte estável para padronizar
+www.linkedin.com##._38107fe3._289e92b9.ad9b1055._31adabea._78537bca._851063bb.dcd29c5c._2dce6504 > .dfebbce0.e9d2dfe0.cc5a989e.f55385c8.cc52c39b._372ef5f2._573f0970.efc69399.e116166d._2dce6504
+www.linkedin.com##._7e533709.d228a167._106edec8._6eefe3de._3f2d9db7._1bc4a9a0.eaf8f736._6cd76367.c38ce1cc._0281385e._6d4e21bf.e116166d._93797b7c._2dce6504 > .dfebbce0.e9d2dfe0.cc5a989e.f55385c8.cc52c39b._372ef5f2.b06de810._795e33d6.dcd29c5c._2dce6504 > div.dfebbce0.e9d2dfe0.cc5a989e.f55385c8.cc52c39b._372ef5f2.b06de810._2dce6504:nth-of-type(3) > div.dfebbce0.e9d2dfe0.cc5a989e.f55385c8.cc52c39b._372ef5f2.b06de810._2dce6504:nth-of-type(1)
+www.linkedin.com##.fb921db8._0c74bc36.c38ce1cc._0281385e._19a0a3e2._89c5ce88.bbf7948c._98c4b229.eba9bbe3.a8ea6bf6._7b625940._778651db._586c9f71._53281dd1
+www.linkedin.com##.dfebbce0.e9d2dfe0.cc5a989e.f55385c8.cc52c39b._372ef5f2.b06de810._851063bb._6d4e21bf.e1271f9c._2dce6504 > div.dfebbce0.e9d2dfe0.cc5a989e.f55385c8.cc52c39b._372ef5f2.b06de810._2dce6504:nth-of-type(2)
 
 ! InfoMoney - Ad containers
 www.infomoney.com.br##.bg-wl-neutral-100.max-w-9xl.w-screen[class*="h-\["]
