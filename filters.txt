@@ -2,8 +2,8 @@
 ! Description: Cosmetic filters and redirect scriptlets for annoying UI on Wikipedia, Wikiwand, Ultimate Guitar, Songsterr, TheOldReader and Brazilian news/auto sites
 ! Homepage: https://github.com/Esl1h/Brave-Filters-and-Scriptlets
 ! License: https://github.com/Esl1h/Brave-Filters-and-Scriptlets/blob/main/LICENSE
-! Version: 2026.10.05
-! Last modified: 2026-10-05
+! Version: 2026.10.19
+! Last modified: 2026-10-19
 ! Expires: 4 days
 !
 ! Related read: https://esli.blog/posts/como-fugir-das-propaganda-na-internet/
@@ -178,7 +178,7 @@ www.uol.com.br##section.orderSections__section.section:nth-of-type(5) > .contain
 www.uol.com.br##.cardTeams__headerCard.edgeToEdge--xs.cardTeams__animated.headerCard
 www.uol.com.br##.blackBar
 www.uol.com.br##.footer
-www.uol.com.br##[class^="cardVideo__containerPlayer"], .cardVideo__header.cardVideo__live__header
+www.uol.com.br##[class*="cardVideo__containerPlayer"], .cardVideo__header.cardVideo__live__header
 ! Frágil a deploy: id só de hash, sem parte estável
 www.uol.com.br###mfne933n
 www.folha.uol.com.br##.col.col--md-2-5.col--lg-1-3.col-offset--lg-3-14
